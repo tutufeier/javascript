@@ -1,7 +1,5 @@
-# js-basic
-js small programs
 
-## 进制转换方法一
+# 进制转换方法一
 var str = '0xCAFE911';
 
 var arr = str.split('').reverse();
@@ -20,7 +18,7 @@ for(i=0; i<parseInt(str.length-2);i++){
 
 console.log(transnum);
 
-## 进制转换方法二
+# 进制转换方法二
 function exchange(num, fromBase, toBase) {
 
     return parseInt(num, fromBase).toString(toBase);
