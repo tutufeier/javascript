@@ -19,3 +19,15 @@ for(i=0; i<parseInt(str.length-2);i++){
 
 
 console.log(transnum);
+
+## 进制转换方法二
+function exchange(num, fromBase, toBase) {
+
+    return parseInt(num, fromBase).toString(toBase);
+    
+}
+
+console.log(exchange('CAFE911', 16, 8))
+
+console.log(parseInt('CAFE911', 16))
+
