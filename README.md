@@ -1,2 +1,2 @@
-# hello-world
-my first repository
+# js-basic
+js small programs
